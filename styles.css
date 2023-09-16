@@ -23,7 +23,7 @@ body{
     height: 600px;
     width: 600px;
     border-radius: 28px;
-    /* z-index: -100px; */
+    z-index: -100px;
     position: relative;
 }
 
@@ -101,4 +101,14 @@ body{
 
 .main i:hover{
     transform: rotate(35deg);
+}
+
+.settings-panal{
+    height: 535px;
+    position: absolute;
+    width: 507;
+    top: -10;
+    left: -10;
+    background-color: black;
+    z-index: 100000;
 }
