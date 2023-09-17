@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+    position: relative;
 }
 
 
@@ -23,7 +23,7 @@ body{
     height: 600px;
     width: 600px;
     border-radius: 28px;
-    z-index: -100px;
+    /* z-index: -100px; */
     position: relative;
 }
 
@@ -105,10 +105,10 @@ body{
 
 .settings-panal{
     height: 535px;
-    position: absolute;
+    position: relative;
     width: 507;
     top: -10;
     left: -10;
     background-color: black;
-    z-index: 100000;
+    z-index: 1;
 }
